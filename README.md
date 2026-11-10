@@ -51,6 +51,7 @@ Run every command from the repository root, in this order; later steps reuse fun
 | 16 | `python src/sq3_kiem_tra_co_che.py` | From signal to payment; rework and status definition | `results/15_payment_time` | §4.3 |
 | 17 | `jupyter notebook payment_time.ipynb` | Reproduces steps 15–16 | `results/17_notebook_payment_time` | §4.3 |
 | 18 | `python src/g8_kiem_tra.py` | Sensitivity analyses: vendor-stratified Cox, R6 without two vendors, R7b from a common time origin, covariates known at creation | `results/18_sensitivity` | §4.3, Fig. 3 |
+| 19 | `python src/make_figure3.py` | Draws Fig. 3 (hazard ratios under three Cox models) from the outputs of steps 15 and 18 | `results/19_figure3` | Fig. 3 |
 
 Step 2 also prints a status split based on a preliminary definition (completed 164,124); the status used in the paper is the final definition of step 6 (completed 163,619), counted in step 8. Steps 10–11 need PM4Py, step 13 also SciPy, and steps 15–18 lifelines. Step 13 is the slowest because it aligns every variant (`--bo-alignment` skips this part).
 
