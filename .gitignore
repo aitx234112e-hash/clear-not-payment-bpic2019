@@ -1,0 +1,5 @@
+data/*.xes
+data/*.xes.gz
+data/*.csv
+__pycache__/
+.ipynb_checkpoints/

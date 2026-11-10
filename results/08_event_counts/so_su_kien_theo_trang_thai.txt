@@ -1,0 +1,4 @@
+Phạm vi: 210.887 dòng hàng, 1.175.650 sự kiện (Bảng 3, bước 6: 210.887 dòng hàng, 1.175.650 sự kiện)
+  Hoàn tất: 163.619 dòng hàng (77,59%), 963.315 sự kiện
+  Còn mở: 39.988 dòng hàng (18,96%), 194.018 sự kiện
+  Bị xóa: 7.280 dòng hàng (3,45%), 18.317 sự kiện
