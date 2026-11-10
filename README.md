@@ -25,7 +25,7 @@ BPI Challenge 2019 event log: van Dongen, B.F. (2019), 4TU.ResearchData, https:/
 pip install -r requirements.txt
 ```
 
-Python 3.12 was used. Graphviz is optional (only for PNG process maps).
+Python 3.12 was used, with pandas 3.0.6, PM4Py 2.7.23.8 and lifelines 0.30.3 (other versions in `requirements_used.txt`). Graphviz is optional (only for PNG process maps).
 
 ## Running
 
