@@ -59,9 +59,15 @@ Step 2 also prints a status split based on a preliminary definition (completed 1
 
 The validation samples are drawn with seed 2026 and exclude cases read in earlier checks (`results/*/validation_samples`). The manual-reading file of the final validation is `results/07_rule_validation/validation_samples/kiem_chung_cuoi_nhan_xet.csv`: one row per case, with the rule (`luat`), the sample (`nhom`: flagged or unflagged), the class (`ket_qua`: `đúng` = true signal, `báo nhầm do dữ liệu` = false alarm caused by the data, `không xác định` = undetermined) and a note on the mechanism (`ghi_chu`). The acceptance criterion and its date are in `protocol/`.
 
+R5 was validated on a stratified sample of 37 cases over four strata; its manual-reading file is `results/05_r5_debit_memo/validation_samples/r5v22_theo_tang_nhan_xet.csv`.
+
 ## Results included
 
 Each `results/` folder contains the summary file (`tom_tat_*.txt`), small tables, the normative model (`.pnml`), validation samples and manual-reading files. Item-level files larger than 2 MB are not included; they are recreated by running the scripts.
+
+## License
+
+The code is released under the MIT License (see `LICENSE`). The event log is not part of this repository and keeps its own licence.
 
 ## Citation
 
